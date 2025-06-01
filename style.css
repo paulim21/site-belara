@@ -1,0 +1,1386 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#principal {
+    width: 100%;
+    height: 95vh;
+    background-image: url(h1_hero1.jpg);
+
+    background-color: rgba(0, 0, 0, 45%);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+
+
+}
+
+header {
+    width: 100%;
+}
+
+#logo {
+    margin-left: 10%;
+    padding-top: 2%;
+    vertical-align: middle;
+    padding-bottom: 2%;
+}
+
+
+#telefone1 {
+    color: white;
+    font-family: "Questrial", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 50%;
+    text-decoration: 0;
+}
+
+#get {
+    padding: 14px 24px;
+    background-color: #D6A04C;
+    border: 1px solid #D6A04C;
+    color: white;
+    text-decoration: none;
+    margin-left: 2%;
+    font-family: "Questrial", sans-serif;
+    transition: 0.5s;
+}
+
+#get:hover {
+    background: transparent;
+}
+
+
+
+#icone1 {
+    display: inline-block;
+    height: 10px;
+    width: 2.5%;
+    border-bottom: solid 2px white;
+    border-top: solid 2px white;
+    margin-left: 2%;
+}
+
+aside {
+    width: 335px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: -335px;
+    background-color: #111111;
+    z-index: 99;
+    transition: 0.5s;
+}
+
+#check {
+    position: absolute;
+    width: 2.5%;
+    height: 10px;
+    opacity: 0;
+}
+
+#check:checked+aside {
+    right: 0;
+}
+
+#check2 {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 5%;
+    left: 5%;
+    z-index: 1;
+    opacity: 0;
+}
+
+
+
+.x {
+    position: absolute;
+    height: 25px;
+    top: 5%;
+    left: 8%;
+    fill: white;
+}
+
+#check2:hover+.x {
+    fill: #D6A04C;
+}
+
+
+#limenu {
+    position: absolute;
+    margin-top: 50%;
+    margin-left: 35%;
+    font-size: 25px;
+    text-align: center;
+    color: #fff;
+    font-family: "Questrial", sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#limenu li {
+    margin-bottom: 25%;
+}
+
+
+aside .redesocial {
+    margin-top: 210%;
+    margin-left: 30%;
+}
+
+#textosalt {
+    margin-top: 13%;
+    margin-left: 15%;
+
+}
+
+#textosalt {
+    font-family: "Questrial", sans-serif;
+    color: #E9E3D9;
+    font-size: 16px;
+
+}
+
+h1 {
+    font-size: 60px;
+    color: white;
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+    margin-top: 1%;
+}
+
+.play_btn svg {
+    height: 50px;
+    fill: #D6A04C;
+    position: absolute;
+    top: 50%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+
+
+}
+
+#play {
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    left: 65%;
+    color: white;
+    font-family: "Questrial", sans-serif;
+    font-size: 20px;
+
+}
+
+.play_btn {
+    display: inline-block;
+    position: relative;
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-left: 30px;
+    transition: 0.5s;
+}
+
+.play_btn::after {
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    border: solid 2px #D6A04C;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.play_btn::before {
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background-color: rgba(255, 255, 255, 10%);
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.play_btn:hover {
+    background-color: #D6A04C;
+
+}
+
+.play_btn:hover svg {
+    fill: white;
+}
+
+#principal_baixo {
+    margin-top: 8%;
+
+}
+
+.mouse {
+    margin-left: 20%;
+    vertical-align: middle;
+    fill: #D6A04C;
+}
+
+
+.retangulo {
+    width: 50%;
+    height: 12vh;
+    background-color: #D6A04C;
+    margin-left: 50%;
+    margin-top: -2%;
+    position: relative;
+
+}
+
+.texto_retangulo {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 3%;
+    margin-right: 5%;
+    margin-left: 5%;
+    font-family: "Questrial", sans-serif;
+    line-height: 1.3;
+
+    position: absolute;
+
+}
+
+
+.texto_retangulo2 {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 3%;
+    font-family: "Questrial", sans-serif;
+    line-height: 1.3;
+    margin-left: 55%;
+    position: absolute;
+}
+
+
+
+
+
+#SobreNos {
+    background-color: #0b0016;
+    overflow: hidden;
+    width: 100%;
+    height: 180vh;
+}
+
+#titulo {
+    margin-top: 5%;
+    margin-left: 16%;
+}
+
+#titulo h1 {
+    font-size: 50px;
+}
+
+#quadrado1 {
+    width: 23%;
+    margin-left: 21.7%;
+    margin-top: 2.5%;
+
+}
+
+#areaescrito {
+    display: flex;
+}
+
+#txt_belara {
+    color: #E9E3D9;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: "Questrial", sans-serif;
+    text-align: left;
+}
+
+#quadrado1 img {
+    margin-top: 10%;
+}
+
+#quadrado2 {
+    width: 22.3%;
+    margin-left: 6%;
+    margin-top: 2.5%;
+    display: inline;
+}
+
+#txt_studio {
+    color: #E9E3D9;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: "Questrial", sans-serif;
+}
+
+#btnlearn {
+    display: block;
+    width: 35%;
+    height: 6vh;
+    text-align: center;
+    padding: 19px 24px;
+    background-color: transparent;
+    border: 1px solid #D6A04C;
+    color: white;
+    text-decoration: none;
+    margin-left: 2%;
+    margin-top: 10%;
+    font-family: "Questrial", sans-serif;
+    transition: 0.5s;
+}
+
+#btnlearn:hover {
+    background-color: #D6A04C;
+}
+
+#quadrado2 img {
+    margin-top: 10%;
+}
+
+#WhatWeDo {
+    display: flex;
+}
+
+#WhatWeDo_Box1 {
+    margin-left: 16%;
+    margin-top: 3%;
+    transition: 0.5s;
+    width: 23%;
+    height: 40vh;
+    margin-right: 0%;
+}
+
+
+
+#WhatWeDo_Box1 h2 {
+    font-size: 32px;
+    color: white;
+    font-family: "Cabin", sans-serif;
+    margin-top: 1%;
+    font-weight: 400;
+}
+
+#WhatWeDo_Box1 p {
+    color: #E9E3D9;
+    margin-top: 3%;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: "Questrial", sans-serif;
+}
+
+
+
+
+.imgWhatWeDo1 {
+    position: relative;
+    width: 100%;
+    height: 40vh;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.imgWhatWeDo1 img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.cor {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s;
+}
+
+.seta {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    font-size: 24px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.imgWhatWeDo1:hover .cor {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.imgWhatWeDo1:hover .seta {
+    opacity: 1;
+}
+
+#WhatWeDo_Box1:hover {
+    margin-top: 4%;
+}
+
+#WhatWeDo_Box1:hover h2 {
+    color: #D6A04C;
+}
+
+#WhatWeDo_Box2 {
+    margin-left: 1%;
+    margin-top: 3%;
+    transition: 0.5s;
+    width: 25%;
+    height: 40vh;
+}
+
+#WhatWeDo_Box2 h2 {
+    font-size: 32px;
+    color: white;
+    font-family: "Cabin", sans-serif;
+    margin-top: 1%;
+    font-weight: 400;
+}
+
+#WhatWeDo_Box2 p {
+    color: #E9E3D9;
+    margin-top: 3%;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: "Questrial", sans-serif;
+}
+
+#WhatWeDo_Box2:hover {
+    margin-top: 4%;
+}
+
+#WhatWeDo_Box2:hover h2 {
+    color: #D6A04C;
+}
+
+#WhatWeDo_Box3 {
+    margin-left: 1%;
+    margin-top: 3%;
+    transition: 0.5s;
+    width: 25%;
+    height: 40vh;
+}
+
+#WhatWeDo_Box3 h2 {
+    font-size: 32px;
+    color: white;
+    font-family: "Cabin", sans-serif;
+    margin-top: 1%;
+    font-weight: 400;
+}
+
+#WhatWeDo_Box3 p {
+    color: #E9E3D9;
+    margin-top: 3%;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: "Questrial", sans-serif;
+}
+
+#WhatWeDo_Box3:hover {
+    margin-top: 4%;
+}
+
+#WhatWeDo_Box3:hover h2 {
+    color: #D6A04C;
+}
+
+
+
+
+#projetos {
+    background-color: #1E1E1E;
+    width: 100%;
+    height: 98vh;
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+}
+
+#divProjeto {
+    font-size: 150px;
+    font-weight: 600;
+    -webkit-text-stroke: 1px #E9E3D9;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+    line-height: 1;
+    font-family: "Cabin", sans-serif;
+    margin-top: 5%;
+    margin-left: 15%;
+    position: absolute;
+    z-index: 0;
+}
+
+#divProjeto img {
+    position: absolute;
+    margin-top: -9%;
+}
+
+
+
+#Retangulo2 {
+    width: 40%;
+    height: 20vh;
+    background-color: #D6A04C;
+    margin-top: -5.5%;
+    margin-left: 15%;
+    position: absolute;
+    transition: 0.6s;
+
+
+
+}
+
+#Retangulo2 p {
+    color: white;
+    font-size: 32px;
+    font-family: "Cabin", sans-serif;
+    margin-left: 8%;
+    margin-top: 4%;
+}
+
+#Retangulo2 h4 {
+    color: white;
+    font-size: 14px;
+    font-family: "Cabin", sans-serif;
+    margin-left: 8%;
+    margin-top: 3%
+}
+
+
+
+#Why_Us {
+    background-color: #0b0016;
+    width: 100%;
+    height: 94vh;
+}
+
+#setaWhyUs {
+    top: 50%;
+    left: 87%;
+    content: "";
+    position: absolute;
+    width: 8%;
+    height: 6.5vh;
+    background-color: rgba(255, 255, 255, 10%);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+
+#setaWhyUs svg {
+    position: absolute;
+    transform: translate(-50%, 100%);
+    fill: white;
+}
+
+#Retangulo2:hover {
+    background-color: #1E1E1E;
+}
+
+#Retangulo2:hover p {
+    color: #D6A04C;
+}
+
+#Retangulo2:hover #seta_WhyUs {
+    background-color: #D6A04C;
+}
+
+
+section {
+    position: relative;
+
+}
+
+section img {
+    margin-top: 17.8%;
+    margin-left: 15%;
+}
+
+.texto {
+    margin-top: 20.8%;
+
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50%
+}
+
+.texto h2 {
+    color: #fff;
+    font-family: "Cabin", sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 3%;
+    margin-left: 25%;
+
+}
+
+.texto p {
+    color: #E9E3D9;
+    font-size: 27px;
+    font-weight: 400;
+    width: 44%;
+    margin-left: 25%;
+    font-family: "Questrial", sans-serif;
+    line-height: 1.5;
+    margin-bottom: 5%;
+
+
+}
+
+#botaoWhyUs {
+    background-color: transparent;
+    color: white;
+    border: 1px solid #D6A04C;
+    text-decoration: none;
+    padding: 1.8% 3%;
+    margin-left: 25%;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Questrial", sans-serif;
+    color: #D6A04C;
+
+
+}
+
+
+
+
+
+
+#Creative {
+    background-color: #0A0A0A;
+    height: 50vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+#DivCreative {
+    margin-left: 18%;
+    margin-top: 8%;
+    width: 60%;
+    height: 30vh;
+}
+
+#iconCreative {
+    margin-left: 50%;
+}
+
+#text_Creative {
+    color: #C1C1C1;
+    line-height: 1.5;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 0 200px;
+    text-align: center;
+    font-family: "Questrial", sans-serif;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#imgBuck {
+    margin-left: 48.5%;
+    margin-bottom: 1%;
+}
+
+#text_img {
+    color: #fff;
+    line-height: 1.5;
+    font-size: 12px;
+    font-weight: 300;
+    margin-left: 4%;
+    text-align: center;
+    font-family: "Questrial", sans-serif;
+}
+
+
+
+#Architecture {
+    width: 100%;
+    height: 80vh;
+    background-color: #0b0016;
+}
+
+#Retangulo_Architecture {
+    width: 70%;
+    height: 33vh;
+    border: solid 1px #4B4B4B;
+    margin-left: 15%;
+    position: relative;
+    transition: 0.3s;
+    margin-bottom: 3%;
+}
+
+#Retangulo_Architecture img {
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+}
+
+#Retangulo_Architecture div {
+    display: inline;
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 3%;
+    color: #fff;
+}
+
+#titulo_Architecture {
+    text-transform: uppercase;
+    font-family: "Questrial", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+}
+
+#texto_Architecture {
+    font-family: "Cabin", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 32px;
+    margin-top: 4%;
+    width: 85%;
+}
+
+#data_Architecture {
+    color: #fff;
+    font-size: 14px;
+    font-family: "Questrial", sans-serif;
+    margin-top: 5%;
+}
+
+#seta_Architecture {
+    top: 50%;
+    left: 94%;
+    content: "";
+    position: absolute;
+    width: 4.5%;
+    height: 6.5vh;
+    background-color: rgba(255, 255, 255, 10%);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    transition: 0.3s;
+}
+
+#seta_Architecture svg {
+    position: absolute;
+    transform: translate(-50%, 100%);
+    fill: white;
+}
+
+#Retangulo_Architecture:hover {
+    background-color: rgba(29, 29, 29, 0.8);
+
+}
+
+#Retangulo_Architecture:hover #texto_Architecture {
+    color: #D6A04C;
+}
+
+#Retangulo_Architecture:hover #seta_Architecture {
+    background-color: #D6A04C;
+}
+
+/* rodape */
+footer {
+    width: 100%;
+    height: 58vh;
+    background-color: #1e1e1e;
+    position: relative;
+}
+
+footer img {
+    margin-top: 7%;
+    margin-left: 15%;
+}
+
+#txt_Rodape {
+    position: absolute;
+    width: 10%;
+    margin-left: 28%;
+    margin-top: -2.7%;
+}
+
+#txt_Rodape h6 {
+    font-family: "Cabin", sans-serif;
+    color: #ffffff;
+    font-size: 22px;
+    margin-bottom: 3%;
+    font-weight: 600;
+    margin-bottom: 16%;
+}
+
+#txt_Rodape p {
+    font-family: "Cabin", sans-serif;
+    color: #E9E3D9;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 10%;
+}
+
+
+#txt_Rodape p:hover {
+    text-decoration: underline;
+}
+
+
+#txt_Rodape2 {
+    position: absolute;
+    width: 10%;
+    margin-left: 40%;
+    margin-top: -2.7%;
+}
+
+#txt_Rodape2 h6 {
+    font-family: "Cabin", sans-serif;
+    color: #ffffff;
+    font-size: 22px;
+    margin-bottom: 3%;
+    font-weight: 600;
+    margin-bottom: 16%;
+}
+
+#txt_Rodape2 p {
+    font-family: "Cabin", sans-serif;
+    color: #E9E3D9;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 10%;
+}
+
+
+#txt_Rodape2 p:hover {
+    text-decoration: underline;
+}
+
+#Newsletter {
+    position: absolute;
+    position: absolute;
+    width: 20%;
+    margin-left: 65%;
+    margin-top: -2.7%;
+}
+
+#Newsletter h6 {
+    font-family: "Cabin", sans-serif;
+    color: #ffffff;
+    font-size: 22px;
+    margin-bottom: 3%;
+    font-weight: 600;
+    margin-bottom: 5%;
+}
+
+
+#Newsletter p {
+    font-family: "Questrial", sans-serif;
+    color: #A4A6AE;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 4%;
+}
+
+#email_rodape {
+    width: 100%;
+    height: 6.5vh;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 6px;
+    color: #5C6168;
+    background: #fff;
+    position: relative;
+}
+
+
+#Botao_envio {
+    position: absolute;
+    height: 6.5vh;
+    width: 20%;
+    margin-left: -20%;
+    background-color: #D6A04C;
+    border: 0px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+
+#Colorlib {
+    margin-top: 15%;
+    margin-left: 15%;
+    width: 70%;
+    padding-top: 1.8%;
+    color: #A4A6AE;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 2;
+    font-family: "Questrial", sans-serif;
+    text-align: center;
+    border-top: solid 0.3px #636161;
+}
+
+#Colorlib span {
+    color: #D6A04C;
+}
+
+.redesocial svg {
+    margin-top: 10%;
+    height: 23px;
+    fill: white;
+    margin-right: 4%;
+}
+
+
+
+/* blog */
+
+
+#blogcima {
+    width: 100%;
+    height: 50vh;
+    background-image: url(h1_hero1.jpg);
+    background-color: rgba(0, 0, 0, 45%);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+
+
+}
+
+#titulo_blog {
+    color: #E9E3D9;
+    font-size: 18px;
+    font-family: "Questrial", sans-serif;
+    margin-left: 23%;
+    margin-top: 4%;
+}
+
+#Areablog {
+    height: 415vh;
+    width: 100%;
+    background-color: #0b0016;
+    overflow: hidden;
+}
+
+#imagen_blog {
+    height: 65vh;
+    width: 45%;
+    margin-top: 6%;
+    margin-left: 16%;
+    background-color: #0b0016;
+    position: relative;
+}
+
+#Descricao_blog {
+    overflow: hidden;
+    width: 100%;
+    height: 34%;
+    margin-top: -1%;
+    box-shadow: 0 0 30px rgba(250, 250, 250, 0.6);
+}
+
+#Descricao_blog h1 {
+    font-size: 24px;
+    margin-top: 5%;
+    margin-left: 3.5%;
+    margin-bottom: 2%;
+}
+
+#Descricao_blog h1:hover {
+    color: #D6A04C;
+}
+
+
+#Descricao_blog p {
+    width: 80%;
+    margin-left: 3.5%;
+    color: white;
+    font-family: "Questrial", sans-serif;
+}
+
+#Descricao_blog div {
+    margin-top: 3%;
+    margin-left: 3.5%;
+
+
+}
+
+#Descricao_blog div svg {
+
+    height: 14px;
+    fill: #D6A04C;
+
+}
+
+#travel {
+    color: #D6A04C;
+    font-family: "Questrial", sans-serif;
+    font-size: 14px;
+    padding-right: 15px;
+    border-right: solid #4B4B4B 1px;
+}
+
+
+
+#Descricao_blog span svg {
+    margin-left: 15px;
+    height: 14px;
+    fill: #D6A04C;
+
+}
+
+#balao {
+    color: #D6A04C;
+    font-family: "Questrial", sans-serif;
+    font-size: 14px;
+    padding-right: 15px;
+
+}
+
+#data {
+    position: absolute;
+    width: 11%;
+    height: 10vh;
+    background-color: #D6A04C;
+    margin-top: -32%;
+    margin-left: 5%;
+    border-radius: 6px;
+}
+
+#data p {
+    color: white;
+    font-family: "Questrial", sans-serif;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 18%;
+    font-weight: 600;
+}
+
+#data:hover {
+    background-color: transparent;
+    color: white;
+}
+
+
+#DireitaBlog {
+    position: absolute;
+    height: 415vh;
+    width: 20%;
+    margin-left: 63%;
+    margin-top: 6%;
+}
+
+#Primeiro {
+    height: 2.5%;
+    background-color: white;
+}
+
+#email_Blog {
+    width: 80%;
+    height: 5vh;
+    padding: 10px 20px;
+    border: 0;
+    margin-left: 10%;
+    margin-top: 7%;
+    color: #999999;
+    background: #fff;
+    position: relative;
+}
+
+
+#Botao_Blog {
+    position: absolute;
+    height: 5vh;
+    width: 26%;
+    margin-left: -26%;
+    background-color: #D6A04C;
+    border: 0px;
+    margin-top: 7%;
+    color: white;
+    font-weight: 500;
+    font-family: "Questrial", sans-serif;
+    font-size: 16px;
+}
+
+
+#Segundo {
+    margin-top: 8%;
+    height: 45vh;
+    background-color: white;
+    font-family: "Questrial", sans-serif;
+    overflow: hidden;
+}
+
+#Segundo P {
+    font-size: 20px;
+    margin-bottom: 12%;
+    font-weight: 600;
+    font-family: "Questrial", sans-serif;
+    margin-left: 8%;
+    margin-top: 8%;
+}
+
+#lista_direita li {
+    color: rgb(0, 0, 0);
+    margin-left: 5%;
+    font-family: "Questrial", sans-serif;
+    margin-left: 8%;
+    list-style: none;
+    margin-bottom: 10%;
+}
+
+#lista_direita li:hover {
+    color: #D6A04C;
+}
+
+#Terceira {
+    margin-top: 8%;
+    height: 45vh;
+    background-color: white;
+    font-family: "Questrial", sans-serif;
+    overflow: hidden;
+}
+
+#titulo_recents {
+    font-size: 20px;
+    margin-bottom: 12%;
+    font-weight: 600;
+    font-family: "Questrial", sans-serif;
+    margin-left: 8%;
+    margin-top: 8%;
+}
+
+#recentes_post {
+    margin-left: 8%;
+    position: relative;
+}
+
+#textRecents {
+    position: absolute;
+    margin-left: 30%;
+    margin-top: -20%;
+}
+
+#recentp1 {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 6px;
+    transition: 0.3s;
+    font-weight: 600;
+}
+
+#recentp2 {
+    font-size: 14px;
+    line-height: 21px;
+    font-family: "Questrial", sans-serif;
+    color: #545454;
+
+}
+
+#Quarto {
+    margin-top: 8%;
+    height: 25vh;
+    background-color: white;
+    font-family: "Questrial", sans-serif;
+    overflow: hidden;
+}
+
+#titulo_quarto {
+    font-size: 20px;
+    margin-bottom: 8%;
+    font-weight: 600;
+    font-family: "Questrial", sans-serif;
+    margin-left: 8%;
+    margin-top: 8%;
+}
+
+
+
+#palavras {
+    width: 80%;
+    margin-left: 10%;
+}
+
+#palavras p {
+    padding: 3px;
+    font-size: 15px;
+    font-weight: 400;
+    margin-right: 5%;
+    margin-top: 5%;
+    display: inline-block;
+    font-family: "Questrial", sans-serif;
+    color: #D6A04C;
+}
+
+#palavras p:hover {
+    color: white;
+    background-color: #D6A04C;
+}
+
+#Quinto {
+    margin-top: 8%;
+    height: 35vh;
+    background-color: white;
+    font-family: "Questrial", sans-serif;
+    overflow: hidden;
+}
+
+#Quinto p {
+    font-size: 20px;
+    margin-bottom: 8%;
+    font-weight: 600;
+    font-family: "Questrial", sans-serif;
+    margin-left: 8%;
+    margin-top: 8%;
+}
+
+#Quinto div {
+    margin-left: 5%;
+}
+
+#Quinto img {
+    margin-left: 5%;
+    margin-top: 4%;
+}
+
+
+#Sexto {
+    margin-top: 12%;
+    height: 28vh;
+    background-color: white;
+    font-family: "Questrial", sans-serif;
+    overflow: hidden;
+}
+
+#Sexto p {
+    font-size: 20px;
+    margin-bottom: 8%;
+    font-weight: 600;
+    font-family: "Questrial", sans-serif;
+    margin-left: 8%;
+    margin-top: 8%;
+}
+
+#emailblog{width: 80%;
+    height: 8vh;
+margin-left: 10%;
+border:0 ;
+}
+
+#submitblog{width: 80%;
+    height: 05vh;
+margin-left: 10%;
+border: 1px solid #D6A04C;
+font-size: 18px;
+color: #D6A04C;}
+
+
+
+
+/* CONTACT */
+
+#Contato{width: 100%;
+height: 150vh;
+background-color: #0b0016; 
+position: relative;}
+
+iframe {
+ width: 70%;
+  border-radius: 8px;
+  margin-left: 15%;
+  margin-top: 8%;
+}
+
+#Contato h2{color: white;
+ margin-left: 15%;
+margin-top: 4%;
+ font-family: "Questrial", sans-serif;
+}
+
+#textGrande{width: 50%;
+height: 20vh;
+margin-left: 15%;
+margin-top: 1%;
+background-color: #0b0016;
+border: 1px solid white;
+
+}
+
+#textnome{width: 24%;
+height: 5vh;
+margin-left: 15%;
+margin-top: 3%;
+background-color: #0b0016;
+border: 1px solid white;
+padding: 10px;
+}
+
+#txtemail{width: 24%;
+height: 5vh;
+margin-left: 2%;
+margin-top: 3%;
+background-color: #0b0016;
+border: 1px solid white;
+padding: 10px;
+}
+
+#textsubjet{width:50%;
+height: 5vh;
+margin-left: 15%;
+margin-top: 3%;
+background-color: #0b0016;
+border: 1px solid white;
+padding: 10px;}
+
+#Botao_contato{margin-top: 5%;
+    margin-left: 15%;
+    width: 8%;
+height: 6vh;
+background-color: #D6A04C;
+color: white;
+font-size: 16px;
+}
+
+#icons_contato{position: absolute;
+    margin-top: -30%;
+    margin-left: 75%;
+    color: white;
+    fill: white;
+    display: inline;
+}
+#icons_contato p {position: absolute;
+    margin-left: 120%;
+    margin-top: -80%;
+    width: 1000px;
+    font-family: "Questrial", sans-serif;
+}
+
+#espaçoicon{margin-top: 80%;}
